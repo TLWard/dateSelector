@@ -15,11 +15,6 @@ export class DateSelector extends React.Component {
         this.SubtractDay = this.SubtractDay.bind(this);
 
     }
-    componentDidUpdate() {
-
-        //Update the parent components with the DateSelector's current date.
-       
-    }
     handleChange(e) {
         var dte = new Date(e.target.value);
         this.setState({ input: e.target.value, time: this.state.time, hr: this.state.hr, min: this.state.min });

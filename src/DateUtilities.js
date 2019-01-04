@@ -1,6 +1,4 @@
 ﻿import * as React from 'react';
-
-
 export function GetDateString(dte) {
 
     return dte.toISOString().split('T')[0];
