@@ -5,7 +5,6 @@ import { DateSelector } from './DateSelector'
 export default class extends Component {
   GetDateValue(dte) {
     this.setState({ dte: dte });
-    //alert(dte);
 }
   render() {
     return <div>
